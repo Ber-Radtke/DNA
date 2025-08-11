@@ -33,7 +33,7 @@ def main():
             if int(person[STR]) != DNA_Info[STR]:
                 match = False
                 break
-            if match == True:
+        if match == True:
                 print(person["name"])
                 break
     else:
